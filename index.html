@@ -1,16 +1,32 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Testing</title>
+    <title>Redirect with Image</title>
+    <style>
+        body {
+            margin: 0;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+    <script>
+        // Redirect to the target URL
+        window.onload = function() {
+            window.location.href = "https://example.com"; // Replace with your target link
+        };
+    </script>
 </head>
-
 <body>
-  
-    <h1>This is a webpage for testing the Chatbot</h1>
-    
-    <div id="paypal-button-container"></div>
-
+    <!-- Replace the source of the image with your desired image URL -->
+    <img src="https://via.placeholder.com/300" alt="Display Image">
 </body>
 </html>
